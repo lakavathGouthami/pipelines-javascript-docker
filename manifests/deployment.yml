@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: lakavathgouthamipipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lakavathgouthamipipelinesjavascriptdocker
+  template:
+    metadata:
+      labels:
+        app: lakavathgouthamipipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: lakavathgouthamipipelinesjavascriptdocker 
+          image: mycr12.azurecr.io/lakavathgouthamipipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
