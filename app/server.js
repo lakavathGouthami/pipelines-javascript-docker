@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello Azure K8s services \n');
+  res.send('Hello Azure, Welcome to K8s services \n');
 });
 
 
