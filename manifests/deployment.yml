@@ -16,4 +16,4 @@ spec:
         - name: lakavathgouthamipipelinesjavascriptdocker 
           image: mycr12.azurecr.io/lakavathgouthamipipelinesjavascriptdocker
           ports:
-          - containerPort: 8080
+          - containerPort: 8443
